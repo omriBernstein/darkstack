@@ -11,7 +11,7 @@ app.config(function ($stateProvider) {
 app.controller('CheatCtrl', function ($scope) {
 
     $scope.sheets = {
-        Angular: "function TodoList () { return 'happiness'; }"
+        Sequelize: "INSERT * INTO *"
     };
 
 });
