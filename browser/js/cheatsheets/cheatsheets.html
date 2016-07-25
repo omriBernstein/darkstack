@@ -1,0 +1,6 @@
+<div>
+  <div ng-repeat="(name, answer) in sheets">
+    <h2>Assessment: {{ name }}</h2>
+    <pre>{{ answer | json }}</pre>
+  </div>
+</div>
