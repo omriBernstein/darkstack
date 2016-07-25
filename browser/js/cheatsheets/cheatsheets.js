@@ -11,7 +11,10 @@ app.config(function ($stateProvider) {
 app.controller('CheatCtrl', function ($scope) {
 
     $scope.sheets = {
-        Express: "app.use(Drugs)"
+
+        Express: "app.use(Drugs)",
+        Sequelize: "INSERT * INTO *"
+
     };
 
 });
